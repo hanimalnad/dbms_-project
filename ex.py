@@ -4,7 +4,7 @@ import mysql.connector
 import time as t
 import pandas as pd 
 placeholder = st.empty()
-
+#print("sumne hange")
 mydb = mysql.connector.connect(
     host="localhost",
     user="root",
